@@ -14,6 +14,7 @@ function App() {
     const password = formData.get("password")
     const employmentStatus = formData.get("employmentStatus")
     const dietaryRestrictions = formData.getAll("dietaryRestrictions")
+    const checkboxes = formData.getAll("multipleoptions")
     console.log(dietaryRestrictions)
   }
 
